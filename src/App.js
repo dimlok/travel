@@ -4,9 +4,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-const Page = styled.div`
-  background-image: url("");
-`;
+const Page = styled.div``;
 
 export default function App() {
   return (
