@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Articles",
+    "url": "/articles"
+  },
+  {
+    "title": "Locations",
+    "url": "/locations"
+  },
+  {
+    "title": "Videos",
+    "url": "/videos"
+  }
+]
