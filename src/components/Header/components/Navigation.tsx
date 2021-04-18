@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { Button } from "../../../shared/components/Button";
+import { Button } from "shared/components/Button";
+import React from "react";
 
 const List = styled.div`
   display: flex;

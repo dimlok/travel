@@ -1,17 +1,17 @@
 [
   {
-    "title": "t1",
-    "content": "lalalal lalalal lalal lalal alala",
-    "icon": "icons"
+    "title": "Welcome to Odigo!",
+    "content": "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.",
+    "icon": "src/shared/svg/tower.svg"
   },
   {
-    "title": "t2",
-    "content": "lalalal lalalal lalal lalal alala",
-    "icon": "icons"
+    "title": "Your Personal Japan Guide",
+    "content": "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.",
+    "icon": "src/shared/svg/person.svg"
   },
   {
-    "title": "t3",
-    "content": "lalalal lalalal lalal lalal alala",
-    "icon": "icons"
+    "title": "Promoting Local Businesses",
+    "content": "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.",
+    "icon": "src/shared/svg/markt.svg"
   }
 ]

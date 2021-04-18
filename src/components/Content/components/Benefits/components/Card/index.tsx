@@ -1,18 +1,29 @@
+import React, {ReactNode} from "react";
 import styled from "styled-components";
-import { ReactNode } from "react";
+import {Button} from "shared/components/Button";
 
-const Container = styled.div``;
+const Container = styled.div`
+`;
 
-const Title = styled.h3``;
+const Title = styled.h3`
+margin: 15px 0;
+`;
 
-const Content = styled.p``;
+const Content = styled.p`
+margin: 15px 0;
+`;
 
-const Button = styled(Button)``;
+const ShowMore = styled(Button)`
+  color: white;
+  background-color: #1b7dff;
+  width: 150px;
+  padding: 0.5em;
+`;
 
 interface CardProps {
   title: string;
   content: string;
-  icon?: ReactNote;
+  icon?: ReactNode;
 }
 export default function Card({ title, content, icon }: CardProps) {
   return (
@@ -20,7 +31,7 @@ export default function Card({ title, content, icon }: CardProps) {
       {icon}
       <Title>{title}</Title>
       <Content>{content}</Content>
-      <Button>Learn More</Button>
+      <ShowMore>Learn More</ShowMore>
     </Container>
   );
 }

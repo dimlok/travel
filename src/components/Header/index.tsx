@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { Wrapper } from "../../style/baseReact.tsx";
+import { Wrapper } from "style/baseReact";
 import { ReactComponent as LogoSvg } from "../../shared/svg/odigologo.svg";
 import Navigation from "./components/Navigation";
-import ListItemJson from "./components/ListItem";
+import ListItemJson from "./components/ListItem.json";
+import React from "react";
 
 const Container = styled.div`
   position: fixed;

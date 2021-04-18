@@ -1,20 +1,20 @@
 import styled from "styled-components";
 import BGImage from "../../shared/img/Image.png";
-import { Wrapper } from "../../style/baseReact.tsx";
+import { Wrapper } from "style/baseReact";
 import InputElement from "../../shared/components/Input";
-import { Button } from "../../shared/components/Button";
+import { Button } from "shared/components/Button";
 import Benefits from "./components/Benefits";
+import React from "react";
 
 const Container = styled.div`
   background: url(${BGImage}) no-repeat center;
   background-size: cover;
   height: 100vh;
-  color: black;
   color: white;
 `;
 
 const Title = styled.h1`
-  padding-top: 263px;
+  padding-top: 163px;
   max-width: 619px;
   font-weight: 500;
   line-height: 60px;
