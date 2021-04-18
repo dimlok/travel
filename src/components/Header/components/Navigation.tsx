@@ -13,7 +13,8 @@ const Item = styled(Button)<{ isActive: boolean }>`
     opacity: 0.75;
   }
   color: white;
-  margin-left: 82px;
+  margin-left: 8.2rem;
+  font-size: 1.6rem;
   border-bottom: ${(props) => (props.isActive ? "1px" : "0px")} solid;
 `;
 

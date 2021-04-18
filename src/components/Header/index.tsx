@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const HeaderWrapper = styled.div`
-  padding-top: 56px;
+  padding-top: 1.6rem;
   display: flex;
   justify-content: space-between;
   color: white;
