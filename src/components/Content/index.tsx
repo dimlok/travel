@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import BGImage from "../../shared/img/image.jpg";
+import BGImage from "../../shared/img/Image.png";
 import { Wrapper } from "../../style/baseReact.tsx";
-import { Input } from "../../shared/components/Input";
+import InputElement from "../../shared/components/Input";
 import { Button } from "../../shared/components/Button";
+import Benefits from "./components/Benefits";
 
 const Container = styled.div`
   background: url(${BGImage}) no-repeat center;
@@ -28,29 +29,40 @@ const SubTitle = styled.p`
   margin-bottom: 59px;
 `;
 
-const InputContainer = styled.div``;
+const InputContainer = styled.form`
+  display: flex;
+`;
 
-const SubmitButton = styled(Button)``;
+const SubmitButton = styled(Button)`
+  color: white;
+  background-color: #1b7dff;
+  width: 200px;
+  margin: 1em;
+  padding: 1em;
+`;
 
 interface ContentProps {}
 
 export default function Content(props: ContentProps) {
   return (
-    <Container>
-      <Wrapper>
-        <Title>Discover Amazing places in Japan</Title>
-        <SubTitle>
-          Jump off balcony, onto stranger's head. Chase ball of string hide when
-          guests come over. Being gorgeous with belly side up i could pee on
-          this if i had the energy but under the bed, for attack the child, open
-          the door.
-        </SubTitle>
-        <InputContainer>
-          <Input placeholder="What would you like to do?" />
-          <Input placeholder="Where would you like to go?" />
-          <SubmitButton />
-        </InputContainer>
-      </Wrapper>
-    </Container>
+    <>
+      <Container>
+        <Wrapper>
+          <Title>Discover Amazing places in Japan</Title>
+          <SubTitle>
+            Jump off balcony, onto stranger's head. Chase ball of string hide
+            when guests come over. Being gorgeous with belly side up i could pee
+            on this if i had the energy but under the bed, for attack the child,
+            open the door.
+          </SubTitle>
+          <InputContainer>
+            <InputElement placeholder="What would you like to do?" />
+            <InputElement placeholder="Where would you like to go?" />
+            <SubmitButton type={"submit"}>SEARCH</SubmitButton>
+          </InputContainer>
+        </Wrapper>
+      </Container>
+      <Benefits />
+    </>
   );
 }
